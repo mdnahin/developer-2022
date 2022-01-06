@@ -55,3 +55,58 @@ a.main-btn {
 #main-btn-area{
     margin: 40px 0;
 }
+/*My mission area*/
+.my-mission-area{
+    padding-top: 30px;
+    padding-bottom: 90px;
+}
+.my-mission-item {
+    width: 23%;
+    float: left;
+    margin: 0 1%;
+    background: #00f3ff40;
+    padding: 20px 36px;
+    border-radius: 7px;
+}
+
+.my-mission-icon {
+    width: 90px;
+    height: auto;
+}
+
+.my-mission-icon img {
+    width: 100%;
+}
+
+.my-mission-content h3 {
+    font-size: 23px;
+    font-weight: 700;
+}
+
+.my-mission-content p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.my-mission-item-wrapper {
+    padding-left: 70px;
+}
+
+.my-mission-title {
+    margin: 70px 0;
+}
+
+.my-mission-title h2 {
+    text-align: center;
+    font-size: 45px;
+}
+
+.my-mission-title h2 span {
+    color: #00d4ff;
+}
+.my-mission-item-2{
+    background: #ffa5005e;
+}
+.my-mission-item-3{
+    background: #0000ff52;
+}
