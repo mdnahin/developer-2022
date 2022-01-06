@@ -4,6 +4,10 @@ body{
     padding: 0;
     font-family: 'Roboto Condensed', sans-serif;
 }
+a{
+    text-decoration: none;
+    color: #00d4ff;
+}
 h1,h2,h3,h4,h5,h6{
     font-family: Roboto Condensed;
     font-weight: 700;
@@ -162,4 +166,65 @@ a.main-btn {
 
 .about-two-content h3 {
     font-size: 55px;
+}
+/*Service Area*/
+.services-area{
+    margin-top: 30px;
+    margin-bottom: 90px;
+    overflow: hidden;
+}
+.service-title {
+    margin: 70px 0;
+}
+
+.service-title h2 {
+    text-align: center;
+    font-size: 45px;
+}
+
+.service-title h2 span {
+    color: #00d4ff;
+}
+.service-wrapper{
+    overflow: hidden;
+    padding: 0 70px;
+}
+.service-item {
+    width: 25%;
+    margin: 0 20px;
+    float: left;
+    text-align: center;
+    box-shadow: 0px 3px 15px #ddd;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 20px 30px;
+}
+
+.service-icon {
+    width: 60px;
+    height: auto;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.service-icon img {
+    
+    width: 100%;
+}
+/*Footer Area*/
+.footer-section{
+    background: #000;
+    overflow: hidden;
+}
+.footer-area{
+    text-align: center;
+    padding: 50px 0;
+}
+.footer-area h2{
+    color: #00d4ff;
+    font-size: 35px;
+    font-style: italic;
+}
+.footer-area p{
+    color: #fff;
 }
