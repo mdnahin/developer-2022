@@ -1,3 +1,4 @@
+
 body{
     margin: 0;
     padding: 0;
@@ -90,6 +91,7 @@ a.main-btn {
 
 .my-mission-item-wrapper {
     padding-left: 70px;
+    overflow: hidden;
 }
 
 .my-mission-title {
@@ -109,4 +111,55 @@ a.main-btn {
 }
 .my-mission-item-3{
     background: #0000ff52;
+}
+/*About One Area*/
+.about-section-one{
+    overflow: hidden;
+    margin: 70px 0;
+}
+.about-one-img img{
+    width: 100%;
+}
+.about-one-img{
+    width: 35%;
+    margin-left: 7%;
+    float: left;
+}
+.about-one-content{
+    width: 35%;
+    margin-right: 7%;
+    float: left;
+}
+.about-one-content {
+    padding: 50px 70px;
+}
+
+.about-one-content h3 {
+    font-size: 55px;
+}
+/*About Two Area*/
+.about-section-two{
+    overflow: hidden;
+    margin: 70px 0;
+}
+.about-two-img img{
+    width: 100%;
+}
+.about-two-img{
+    width: 35%;
+    margin-left: 7%;
+    float: left;
+}
+.about-two-content{
+    width: 35%;
+    margin-right: 7%;
+    float: left;
+}
+.about-two-content {
+    padding-top: 50px;
+    padding-left: 90px;
+}
+
+.about-two-content h3 {
+    font-size: 55px;
 }
